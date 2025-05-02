@@ -60,15 +60,17 @@
     {
         display: none;
     }
-
-
-    #sec14 .row
-    {
-        padding-top: 90px;
-    }
     #sec14
     {
-        height: 30vh;
+        height: 35vh;
+    }
+   #login .pics ,.about-pic1,.about-pic2
+    {
+        height: 50vh;
+    }
+    .ronax iframe 
+    {
+        height: 30vh !important;
     }
 }
 
@@ -100,16 +102,15 @@
         display: none;
     }
  
-    #sec4 .inner .con {
-        margin-bottom: 40px;
+    #sec4 .row{
+        text-align: center !important;
     }
    
     .pic .inner .con {
         padding-top: 30px;
     }
-    #sec4 .row
- {
-        text-align: center;
+    .jumbo i {
+        left: 24px;
     }
   
 #sec5 iframe{
