@@ -1,0 +1,170 @@
+@media (max-width:1200px)
+{
+    #sec9 .rel
+    {
+        top: 165px;
+    }
+}
+@media (max-width:1024px) {
+
+   
+    .pic .inner .con
+    {
+        padding-top: 50px;
+    }
+
+ 
+
+   
+}
+@media (max-width:992px)
+{
+  
+}
+@media (max-width:768px) {
+
+
+    nav button {
+       border: none !important;
+    }
+
+    #sec7 .col-lg-3:nth-child(n+3){
+        display: none;
+    }
+
+    .pic .inner .con {
+        padding-top: 68px;
+    }
+#sec9 .col-12:nth-child(3)
+{
+    display: none;
+}
+
+#sec5 ul
+{
+    columns: 1;
+}
+    #sec5 .rigth 
+    {
+        height: 40vh;
+    }
+
+  #sec11 .con2 .panel{
+        margin-bottom: 60px;
+    }
+
+    #sec9 .inner .con2 .cont:last-child,
+    #sec7  .con2 .pics:nth-child(n+3),
+    #sec14 .row .col-12:nth-child(n+4),   .tr::before,
+    .tr::after
+    {
+        display: none;
+    }
+
+
+    #sec14 .row
+    {
+        padding-top: 90px;
+    }
+    #sec14
+    {
+        height: 30vh;
+    }
+}
+
+@media (max-width:767px) {
+    .container
+    {
+        width: 95% !important;
+    }
+    html {
+        font-size: 11px;
+    }
+    .custom-slide
+    {
+        padding: 115px 0;
+    }
+    .con h1 {
+        font-size: 2rem;
+    }
+
+    #sec9 
+    {
+        height: 60vh;
+    }
+    .list ul {
+        display: none;
+    }
+    #sec9 .col-12:nth-child(n+2),#sec7 .col-lg-3:nth-child(n+2), #sec14 .row .col-12:nth-child(n+2)
+    {
+        display: none;
+    }
+ 
+    #sec4 .inner .con {
+        margin-bottom: 40px;
+    }
+   
+    .pic .inner .con {
+        padding-top: 30px;
+    }
+    #sec4 .row
+ {
+        text-align: center;
+    }
+  
+#sec5 iframe{
+    height: 32vh;
+}
+
+
+    #sec9 .rel {
+        top: 130px;
+    }
+
+   
+    #last-sec {
+        padding: 50px 10px;
+    }
+    .custom-nav ul 
+    {
+        justify-content: center !important;
+    }
+    .part:first-child
+
+    {
+        margin-bottom: 20px !important;
+    }
+    [id^="sec"] .row > img:first-of-type, #tabs img
+ {
+    width: 90px;
+}
+    
+}
+
+@media (max-width:376px) and (min-width:300px)
+{
+
+    #sec9 .rel {
+        top: 150px;
+    }
+    footer .ico
+    {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width:321px)
+{
+
+    .button .btn
+    {
+        margin-top: 20px;
+    }
+    #last-sec .lft1 button
+    {
+        margin: 10px 0;
+    }
+    #sec9 .rel {
+        top: 165px;
+    }
+}
