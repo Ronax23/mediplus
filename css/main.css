@@ -1199,6 +1199,7 @@ table span
 
 #blog-sec2 .form-control:not(.form-control input) {
     padding: 40px;
+    border: none;
 
 }
 #blog-sec2 .col-lg-4:nth-child(2) :is(li,li a)
@@ -1286,4 +1287,20 @@ table span
 {
     color: var(--blu) !important;
     font-weight: 500;
+}
+#blog-sec2 .col-lg-4 > .row > .col-12
+{
+    box-shadow: 0px 0px 10px #00000024;
+    border-radius: 5px;
+}
+.page-link
+{
+    padding:5px 15px !important; 
+    font-size: 1.5rem !important;
+
+}
+.page-link:hover 
+{
+    background-color: var(--blu) !important;
+    color: white !important;
 }
