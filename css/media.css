@@ -112,7 +112,10 @@
     {
         display: none;
     }
-  
+    .dropdown-menu
+    {
+        border:none !important;
+    }
 #sec5 iframe{
     height: 32vh;
 }

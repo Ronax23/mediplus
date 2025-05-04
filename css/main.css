@@ -60,7 +60,10 @@ img
     border-bottom: .1px solid #eeee;
 }
 
-
+.dropdown-menu
+{
+    border-left: 3px solid var(--blu) !important;
+}
 
 .btn-blue {
     background-color: var(--blu) !important;
