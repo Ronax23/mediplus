@@ -62,7 +62,7 @@
     }
     #sec14
     {
-        height: 35vh;
+        height: 40vh;
     }
    #login .pics ,.about-pic1,.about-pic2
     {
@@ -81,10 +81,6 @@
     }
     html {
         font-size: 11px;
-    }
-    .custom-slide
-    {
-        padding: 115px 0;
     }
     .con h1 {
         font-size: 2rem;
@@ -126,10 +122,7 @@
         top: 130px;
     }
 
-   #sec9 
-   {
-    height: 50vh;
-   }
+
     #last-sec {
         padding: 50px 10px;
     }
@@ -148,7 +141,17 @@
 }
     
 }
-
+@media (max-width:425px)
+{
+    #sec2 .box
+    {
+        top: 0;
+    }
+    .custom-slide
+    {
+        height: 80vh;
+    }
+}
 @media (max-width:376px) and (min-width:300px)
 {
 
@@ -166,7 +169,9 @@
 @media (max-width:321px)
 {
 
- 
+    .custom-slide {
+        height: 65vh;
+    }
     #sec9 .rel {
         top: 140px;
     }

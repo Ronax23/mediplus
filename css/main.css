@@ -22,7 +22,7 @@ img
     width: 120px;
     margin: 10px 0;
   }
-  #sec10,#sec5,#sec15,#secdoc5,#tabs,#about
+  #sec10,#sec5,#sec15,#secdoc5,#tabs,#about#sec6,#sec7
   {
     padding: 100px 0;
   }
@@ -31,7 +31,7 @@ img
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 130px 0;
+    padding-top: 130px;
     min-height: 60vh;
 }
 
@@ -309,11 +309,7 @@ header .nav a {
     opacity: 1 !important;
 }
 
-#sec5,
-#sec6,
-#sec7{
-    margin-bottom: 100px;
-}
+
 
 
 #sec6 {
