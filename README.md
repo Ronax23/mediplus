@@ -1,5 +1,3 @@
-# pharmacy
-
 # 🏥 MediPlus – Responsive Medical & Healthcare Website
 
 **MediPlus** is a modern and responsive medical website built using **Bootstrap 5.3**, **HTML5**, **CSS3**, and **JavaScript**. It simulates a landing page for a healthcare service or clinic and demonstrates multi-section page design with professional aesthetics and interactive features.
