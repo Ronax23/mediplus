@@ -22,6 +22,15 @@ img
     width: 120px;
     margin: 10px 0;
   }
+
+  body
+  {
+    font-family: "Mako", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+
   #sec10,#sec5,#sec15,#secdoc5,#tabs,#about#sec6,#sec7
   {
     padding: 100px 0;
@@ -50,6 +59,7 @@ img
 .custom-slide h1 {
     font-size: 3.5rem;
     text-transform: capitalize;
+    font-weight: 700;
 }
 
 .custom-slide span,.custom-nav i {
