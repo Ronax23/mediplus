@@ -1,5 +1,9 @@
 function creator(sub_body, errors)
 {
+    creator()
+    {
+        
+    }
     let old=sub_body.querySelector("ul")
         if (old)
         {
