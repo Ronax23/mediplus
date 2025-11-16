@@ -1,6 +1,7 @@
 :root {
     --blu: #1A76D1;
     --p_col: #888;
+    --track_col:#453F62;
 }
 
 * {
@@ -31,7 +32,32 @@ img
   font-style: normal;
   }
 
+  ::-webkit-scrollbar{
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track
+  {
+   background-image: linear-gradient(to bottom, #f7fcfd, #d9f0ff, #a8d8f0, #66b3d8, #3d8db8);
+  }
+  ::-webkit-scrollbar-thumb
+  {
+    background: radial-gradient(circle, #ffffff 20%, #a8d8f0 40%, #66b3d8 60%, #3d8db8);
+    border-radius: 500px;
+  }
+#tabs::-webkit-scrollbar {
+    
+    height: 8px;
+}
 
+#tabs::-webkit-scrollbar-thumb {
+    height: 1px;
+    border-radius: 400px;
+    width: 20px;
+}
+#tabs::-webkit-scrollbar-track
+  {
+   background-image: none;
+  }
   #sec10,#sec5,#sec15,#secdoc5,#tabs,#about#sec6,#sec7
   {
     padding: 100px 0;
